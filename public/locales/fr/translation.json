@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "destinations": "Destinations",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Explorez Madagascar",
+    "subtitle": "L'aventure vous attend sur l'île d'une faune unique et d'une nature époustouflante.",
+    "button": "Découvrir"
+  },
+  "about": {
+    "greeting": "Salut, je suis Jocelyn !",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit..."
+  },
+  "destinations": {
+    "title": "Meilleures destinations",
+    "description": "Découvrez les endroits les plus époustouflants à visiter à Madagascar.",
+    "more": "Voir plus sur Instagram"
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "email": "Email",
+    "whatsapp": "WhatsApp"
+  },
+  "author": {
+    "name": "Lander Dirix",
+    "rights": "Tous droits réservés."
+  }
+}

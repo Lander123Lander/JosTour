@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "destinations": "Destinations",
+    "contact": "Contact",
+    "quickLinks": "Quick Links"
+  },
+  "hero": {
+    "title": "Explore Madagascar",
+    "subtitle": "Adventure awaits on the island of unique wildlife and stunning nature.",
+    "button": "Discover"
+  },
+  "about": {
+    "greeting": "Hi, I'm Jocelyn!",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit..."
+  },
+  "destinations": {
+    "title": "Top Destinations",
+    "description": "Discover the most breathtaking places to visit in Madagascar.",
+    "more": "View more on Instagram"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "email": "Email",
+    "whatsapp": "WhatsApp"
+  },
+  "author": {
+    "name": "Lander Dirix",
+    "rights": "All rights reserved."
+  }
+}
