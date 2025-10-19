@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #242424;
+
+   /* Backgrounds */
+  --color-bg-primary: #fff;       /* main background */
+  --color-bg-navbar: #e7e0da;     /* navbar / header background */
+  --color-bg-button: #ffb84d;     /* buttons */
+
+  /* Text colors */
+  --color-text-primary: #242424;  /* main text */
+  --color-text-navbar: #325823;      /* navbar text */
+  --color-text-button: #242424;   /* button text */
+  --color-text-hover: #1c3612;    /* hover states */
+}
+
+html {
+  scroll-behavior: smooth;
+}
