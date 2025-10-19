@@ -18,39 +18,41 @@ function App() {
             </head>
             <div className="w-full min-h-screen bg-white text-gray-800">
                 {/* Nav */}
-                <nav className="sticky w-full top-0 z-50 h-14 flex justify-center items-center gap-2 md:gap-10 text-md md:text-xl font-semibold shadow-lg bg-white text-green-600">
-                    <a
-                        href="#"
-                        className="hover:text-green-950 transition-colors"
-                    >
-                        {t("nav.home")}
-                    </a>
-                    <a
-                        href="#about"
-                        className="hover:text-green-950 transition-colors"
-                    >
-                        {t("nav.about")}
-                    </a>
-                    <a
-                        href="#destinations"
-                        className="hover:text-green-950 transition-colors"
-                    >
-                        {t("nav.destinations")}
-                    </a>
-                    <a
-                        href="#contact"
-                        className="hover:text-green-950 transition-colors"
-                    >
-                        {t("nav.contact")}
-                    </a>
-                    <div className="flex gap-2 fixed right-6">
-                        <button
-                            onClick={toggleLanguage}
-                            className="px-2 py-1 border rounded hover:bg-gray-200 transition-colors"
+                <nav className="fixed w-full top-0 z-50 h-14 flex justify-center items-center text-green-600 font-semibold">
+                    <div className="hidden md:flex justify-center items-center gap-2 md:gap-10 text-md md:text-xl bg-white w-full h-full shadow-lg">
+                        <a
+                            href="#"
+                            className="hover:text-green-950 transition-colors"
                         >
-                            {i18n.language === "en" ? "EN" : "FR"}
-                        </button>
+                            {t("nav.home")}
+                        </a>
+                        <a
+                            href="#about"
+                            className="hover:text-green-950 transition-colors"
+                        >
+                            {t("nav.about")}
+                        </a>
+                        <a
+                            href="#destinations"
+                            className="hover:text-green-950 transition-colors"
+                        >
+                            {t("nav.destinations")}
+                        </a>
+                        <a
+                            href="#contact"
+                            className="hover:text-green-950 transition-colors"
+                        >
+                            {t("nav.contact")}
+                        </a>
                     </div>
+                    <button
+                        onClick={toggleLanguage}
+                        className="flex gap-2 fixed right-3 bg-black/30 backdrop-blur-sm rounded-lg cursor-pointer"
+                    >
+                        <div className="px-2 py-1 rounded bg-transparent text-white hover:bg-white/20 transition-colors">
+                            {i18n.language === "en" ? "EN" : "FR"}
+                        </div>
+                    </button>
                 </nav>
 
                 {/* Hero */}
@@ -226,7 +228,9 @@ function App() {
 
                         {/* Contact Info */}
                         <div>
-                            <h3 className="font-bold text-xl mb-3">{t("contact.title")}</h3>
+                            <h3 className="font-bold text-xl mb-3">
+                                {t("contact.title")}
+                            </h3>
                             <p>{t("contact.email")}: yourname@example.com</p>
                             <p>{t("contact.whatsapp")}: +1 (234) 567-890</p>
                             <div className="flex justify-center md:justify-start gap-4 mt-3">
@@ -250,7 +254,8 @@ function App() {
 
                     {/* Bottom bar */}
                     <p className="text-center mt-8 text-sm text-gray-300">
-                        © {new Date().getFullYear()} {t("author.name")}. {t("author.rights")}
+                        © {new Date().getFullYear()} {t("author.name")}.{" "}
+                        {t("author.rights")}
                     </p>
                 </footer>
             </div>
