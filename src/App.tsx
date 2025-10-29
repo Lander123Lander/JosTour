@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { DestinationItem } from "./components/DestinationItem";
 import { Madagascar } from "./components/Madagascar";
 import { BiLogoFacebookSquare, BiLogoInstagram } from "react-icons/bi";
+import { MadagascarPOIs } from "./components/MadagascarPOIs";
 
 function App() {
     const { t, i18n } = useTranslation();
@@ -103,6 +104,8 @@ function App() {
                         </div>
                     </div>
                 </section>
+
+                <MadagascarPOIs />
 
                 {/* Destinations */}
                 <section
