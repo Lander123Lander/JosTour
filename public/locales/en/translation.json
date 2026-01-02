@@ -1,33 +1,39 @@
 {
-  "nav": {
-    "home": "Home",
-    "about": "About",
-    "gallery": "Gallery",
-    "contact": "Contact",
-    "quickLinks": "Quick Links"
-  },
-  "hero": {
-    "title": "Explore Madagascar",
-    "subtitle": "Adventure awaits on the island of unique wildlife and stunning nature.",
-    "button": "Discover"
-  },
-  "about": {
-    "greeting": "Hi, I'm Jocelyn!",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit..."
-  },
-  "gallery": {
-    "title": "Gallery",
-    "description": "A collection of stunning images from Madagascar.",
-    "instagram": "See more on Instagram",
-    "more": "View more"
-  },
-  "contact": {
-    "title": "Contact Me",
-    "email": "Email",
-    "whatsapp": "WhatsApp"
-  },
-  "author": {
-    "name": "Lander Dirix",
-    "rights": "All rights reserved."
-  }
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "gallery": "Gallery",
+        "contact": "Contact",
+        "quickLinks": "Quick Links"
+    },
+    "hero": {
+        "title": "Explore Madagascar",
+        "subtitle": "Adventure awaits on the island of unique wildlife and stunning nature.",
+        "button": "Discover"
+    },
+    "about": {
+        "greeting": "Hi, I'm Jocelyn!",
+        "description_who": "My name is Jocelyn, and I am a professional driver and local guide in Madagascar with many years of experience.\nI speak French and English, as well as local Malagasy dialects, which allows me to communicate easily with both travelers and local communities.",
+        "title_travel": "Your holiday in Madagascar",
+        "description_travel": "I take care of everything for your holiday, so you can relax and fully enjoy this extraordinary island. From the moment you arrive, I ensure your journey is safe, comfortable, and well organized.",
+        "title_experience": "Experience and local network",
+        "description_experience": "I bring you to the most beautiful places in Madagascar, arrange stays in pleasant and carefully selected hotels, and adapt the trip completely to your wishes. Thanks to my long experience and strong local network, I know the country, the roads, and the people, and I can always find solutions, even in unexpected situations.",
+        "title_madagascar": "Why Madagascar",
+        "description_madagascar": "Madagascar is my home, and I am proud to share it with you."
+    },
+    "gallery": {
+        "title": "Gallery",
+        "description": "A collection of stunning images from Madagascar.",
+        "instagram": "See more on Instagram",
+        "more": "View more"
+    },
+    "contact": {
+        "title": "Contact Me",
+        "email": "Email",
+        "whatsapp": "WhatsApp"
+    },
+    "author": {
+        "name": "Lander Dirix",
+        "rights": "All rights reserved."
+    }
 }

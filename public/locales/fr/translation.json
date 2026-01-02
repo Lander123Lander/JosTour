@@ -1,32 +1,38 @@
 {
-  "nav": {
-    "home": "Accueil",
-    "about": "À propos",
-    "gallery": "Galerie",
-    "contact": "Contact"
-  },
-  "hero": {
-    "title": "Explorez Madagascar",
-    "subtitle": "L'aventure vous attend sur l'île d'une faune unique et d'une nature époustouflante.",
-    "button": "Découvrir"
-  },
-  "about": {
-    "greeting": "Salut, je suis Jocelyn !",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit..."
-  },
-  "gallery": {
-    "title": "Galerie",
-    "description": "Une collection d'images époustouflantes de Madagascar.",
-    "instagram": "Voir plus sur Instagram",
-    "more": "Voir plus"
-  },
-  "contact": {
-    "title": "Contactez-moi",
-    "email": "Email",
-    "whatsapp": "WhatsApp"
-  },
-  "author": {
-    "name": "Lander Dirix",
-    "rights": "Tous droits réservés."
-  }
+    "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "gallery": "Galerie",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Explorez Madagascar",
+        "subtitle": "L'aventure vous attend sur l'île d'une faune unique et d'une nature époustouflante.",
+        "button": "Découvrir"
+    },
+    "about": {
+        "greeting": "Bonjour, je m'appelle Jocelyn !",
+        "description_who": "Je m'appelle Jocelyn, je suis chauffeur professionnel et guide local à Madagascar depuis de nombreuses années.\nJe parle français et anglais, ainsi que plusieurs dialectes malgaches, ce qui me permet de communiquer facilement avec les voyageurs comme avec les communautés locales.",
+        "title_travel": "Vos vacances à Madagascar",
+        "description_travel": "Je m’occupe de tout pour vos vacances afin que vous puissiez vous détendre et profiter pleinement de cette île extraordinaire. Dès votre arrivée, je veille à ce que votre voyage soit sûr, confortable et bien organisé.",
+        "title_experience": "Expérience et réseau local",
+        "description_experience": "Je vous emmène dans les plus beaux endroits de Madagascar, j’organise des séjours dans des hôtels agréables et soigneusement sélectionnés, et j’adapte entièrement le voyage à vos souhaits. Grâce à ma longue expérience et à mon solide réseau local, je connais le pays, les routes et les habitants, et je trouve toujours des solutions, même en cas d’imprévu.",
+        "title_madagascar": "Pourquoi Madagascar",
+        "description_madagascar": "Madagascar est mon pays, et je suis fier de le partager avec vous."
+    },
+    "gallery": {
+        "title": "Galerie",
+        "description": "Une collection d'images époustouflantes de Madagascar.",
+        "instagram": "Voir plus sur Instagram",
+        "more": "Voir plus"
+    },
+    "contact": {
+        "title": "Contactez-moi",
+        "email": "Email",
+        "whatsapp": "WhatsApp"
+    },
+    "author": {
+        "name": "Lander Dirix",
+        "rights": "Tous droits réservés."
+    }
 }
