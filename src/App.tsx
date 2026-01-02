@@ -13,9 +13,6 @@ function App() {
 
     return (
         <>
-            <head>
-                <title>{t("hero.title")}</title>
-            </head>
             <div className="w-full min-h-screen bg-gradient-to-br from-slate-50 to-green-50 text-gray-900">
                 {/* Nav */}
                 <nav className="fixed w-full top-0 z-50 backdrop-blur-md bg-white/80 border-b border-green-100 shadow-sm">
