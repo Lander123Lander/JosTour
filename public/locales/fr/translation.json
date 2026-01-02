@@ -2,7 +2,7 @@
   "nav": {
     "home": "Accueil",
     "about": "À propos",
-    "destinations": "Destinations",
+    "gallery": "Galerie",
     "contact": "Contact"
   },
   "hero": {
@@ -14,10 +14,11 @@
     "greeting": "Salut, je suis Jocelyn !",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit..."
   },
-  "destinations": {
-    "title": "Meilleures destinations",
-    "description": "Découvrez les endroits les plus époustouflants à visiter à Madagascar.",
-    "more": "Voir plus sur Instagram"
+  "gallery": {
+    "title": "Galerie",
+    "description": "Une collection d'images époustouflantes de Madagascar.",
+    "instagram": "Voir plus sur Instagram",
+    "more": "Voir plus"
   },
   "contact": {
     "title": "Contactez-moi",

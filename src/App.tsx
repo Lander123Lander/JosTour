@@ -1,13 +1,13 @@
 import { useTranslation } from "react-i18next";
-import { DestinationItem } from "./components/DestinationItem";
 import { Madagascar } from "./components/Madagascar";
 import { BiLogoFacebookSquare, BiLogoInstagram } from "react-icons/bi";
+import Gallery from "./components/Gallery";
 
 function App() {
     const { t, i18n } = useTranslation();
 
     const toggleLanguage = () => {
-        const lng = i18n.language === "en" ? "fr" : "en";
+        const lng = i18n.language === "fr" ? "en" : "fr";
         i18n.changeLanguage(lng);
     };
 
@@ -33,10 +33,10 @@ function App() {
                             {t("nav.about")}
                         </a>
                         <a
-                            href="#destinations"
+                            href="#gallery"
                             className="hover:text-green-950 transition-colors"
                         >
-                            {t("nav.destinations")}
+                            {t("nav.gallery")}
                         </a>
                         <a
                             href="#contact"
@@ -50,7 +50,7 @@ function App() {
                         className="flex gap-2 fixed right-3 bg-black/30 backdrop-blur-sm rounded-lg cursor-pointer"
                     >
                         <div className="px-2 py-1 rounded bg-transparent text-white hover:bg-white/20 transition-colors">
-                            {i18n.language === "en" ? "EN" : "FR"}
+                            {i18n.language === "fr" ? "FR" : "EN"}
                         </div>
                     </button>
                 </nav>
@@ -104,42 +104,27 @@ function App() {
                     </div>
                 </section>
 
-                {/* Destinations */}
+                {/* Gallery */}
                 <section
-                    id="destinations"
+                    id="gallery"
                     className="w-full bg-green-100 py-8 px-4 scroll-mt-14"
                 >
                     <div className="max-w-[1000px] mx-auto flex flex-col items-center gap-8">
                         <div className="px-2 text-center">
                             <h2 className="text-3xl font-bold">
-                                {t("destinations.title")}
+                                {t("gallery.title")}
                             </h2>
                             <p className="mb-2">
-                                {t("destinations.description")}
+                                {t("gallery.description")}
                             </p>
                         </div>
-                        <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <DestinationItem src="test" text="test" />
-                            <DestinationItem src="test" text="test" />
-                            <DestinationItem src="test" text="test" />
+                        <Gallery />
 
-                            <DestinationItem src="test" text="test" />
-                            <DestinationItem src="test" text="test" />
-                            <DestinationItem src="test" text="test" />
-
-                            <DestinationItem src="test" text="test" />
-                            <DestinationItem src="test" text="test" />
-                            <DestinationItem src="test" text="test" />
-
-                            <DestinationItem src="test" text="test" />
-                            <DestinationItem src="test" text="test" />
-                            <DestinationItem src="test" text="test" />
-                        </div>
                         <a
                             href="https://www.instagram.com/jocelyn_tours_mada/"
                             className="flex items-center gap-2 bg-green-500 text-white py-2 px-4 font-bold text-lg rounded hover:bg-green-600 cursor-pointer transition-colors mx-auto"
                         >
-                            <span>{t("destinations.more")}</span>
+                            <span>{t("gallery.instagram")}</span>
                             <BiLogoInstagram size={32} />
                         </a>
                     </div>
@@ -225,10 +210,10 @@ function App() {
                                 </li>
                                 <li>
                                     <a
-                                        href="#destinations"
+                                        href="#gallery"
                                         className="hover:underline"
                                     >
-                                        {t("nav.destinations")}
+                                        {t("nav.gallery")}
                                     </a>
                                 </li>
                                 <li>
