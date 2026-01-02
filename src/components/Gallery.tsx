@@ -63,7 +63,7 @@ export default function Gallery() {
                 >
                     <button
                         type="button"
-                        className="absolute left-4 md:left-8 text-white text-3xl md:text-4xl"
+                        className="flex justify-center items-center absolute right-4 md:right-8 w-10 aspect-square text-white text-3xl md:text-4xl bg-black/50 rounded-lg"
                         onClick={(e) => {
                             e.stopPropagation();
                             showPrev();
