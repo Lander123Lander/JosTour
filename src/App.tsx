@@ -6,7 +6,6 @@ import {
     BiLogoInstagram,
     BiMap,
     BiTrip,
-    BiWorld,
 } from "react-icons/bi";
 import Gallery from "./components/Gallery";
 
@@ -110,7 +109,7 @@ function App() {
                 >
                     <div className="max-w-6xl mx-auto flex flex-col gap-12">
                         <div className="grid md:grid-cols-2 gap-12 items-center">
-                            <div className="relative group">
+                            <div className="relative group order-2 md:order-1">
                                 <div className="absolute -inset-4 bg-gradient-to-r from-green-400 to-emerald-500 rounded-2xl opacity-20 blur-xl group-hover:opacity-30 transition-opacity duration-500"></div>
                                 <img
                                     src="/public/assets/images/jocelyn.jpeg"
@@ -119,7 +118,7 @@ function App() {
                                 />
                             </div>
 
-                            <div className="space-y-6">
+                            <div className="space-y-6 order-1 md:order-2">
                                 <div className="inline-block px-4 py-2 bg-green-100 text-green-700 text-sm font-semibold rounded-full">
                                     {t("nav.about")}
                                 </div>
