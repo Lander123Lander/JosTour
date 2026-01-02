@@ -86,7 +86,10 @@ function App() {
                         </a>
                     </div>
 
-                    <a href="#about" className="absolute bottom-8 animate-bounce cursor-default">
+                    <a
+                        href="#about"
+                        className="absolute bottom-8 animate-bounce cursor-default"
+                    >
                         <svg
                             className="w-8 h-8 text-white/80"
                             fill="none"
@@ -216,18 +219,6 @@ function App() {
                                 <div className="space-y-6">
                                     <div className="p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl border border-green-100 hover:shadow-lg transition-shadow duration-300">
                                         <strong className="text-sm text-green-700 uppercase tracking-wide block mb-2">
-                                            {t("contact.email")}
-                                        </strong>
-                                        <a
-                                            href="mailto:zjocelyn43@gmail.com"
-                                            className="text-xl text-gray-900 hover:text-green-600 transition-colors font-medium"
-                                        >
-                                            zjocelyn43@gmail.com
-                                        </a>
-                                    </div>
-
-                                    <div className="p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl border border-green-100 hover:shadow-lg transition-shadow duration-300">
-                                        <strong className="text-sm text-green-700 uppercase tracking-wide block mb-2">
                                             {t("contact.whatsapp")}
                                         </strong>
                                         <a
@@ -235,6 +226,18 @@ function App() {
                                             className="text-xl text-gray-900 hover:text-green-600 transition-colors font-medium"
                                         >
                                             +261 34 04 782 41
+                                        </a>
+                                    </div>
+
+                                    <div className="p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl border border-green-100 hover:shadow-lg transition-shadow duration-300">
+                                        <strong className="text-sm text-green-700 uppercase tracking-wide block mb-2">
+                                            {t("contact.email")}
+                                        </strong>
+                                        <a
+                                            href="mailto:zjocelyn43@gmail.com"
+                                            className="text-xl text-gray-900 hover:text-green-600 transition-colors font-medium"
+                                        >
+                                            zjocelyn43@gmail.com
                                         </a>
                                     </div>
 
@@ -274,7 +277,6 @@ function App() {
                 >
                     <div className="max-w-3xl mx-auto">
                         <div className="bg-white/80 border border-green-100 rounded-2xl shadow-lg p-8 md:p-10 scale-100 hover:scale-[1.01] transition-transform duration-500">
-
                             <div className="flex items-center gap-1 mb-4 text-yellow-400">
                                 {Array.from({ length: 5 }).map((_, i) => (
                                     <BsStarFill key={i} className="w-5 h-5" />
@@ -348,17 +350,6 @@ function App() {
                                 <div className="space-y-3 text-lg">
                                     <p>
                                         <span className="text-gray-400">
-                                            {t("contact.email")}:
-                                        </span>{" "}
-                                        <a
-                                            href="mailto:zjocelyn43@gmail.com"
-                                            className="text-green-400 hover:text-green-300 transition-colors"
-                                        >
-                                            zjocelyn43@gmail.com
-                                        </a>
-                                    </p>
-                                    <p>
-                                        <span className="text-gray-400">
                                             {t("contact.whatsapp")}:
                                         </span>{" "}
                                         <a
@@ -368,7 +359,18 @@ function App() {
                                             +261 34 04 782 41
                                         </a>
                                     </p>
-
+                                    <p>
+                                        <span className="text-gray-400">
+                                            {t("contact.email")}:
+                                        </span>{" "}
+                                        <a
+                                            href="mailto:zjocelyn43@gmail.com"
+                                            className="text-green-400 hover:text-green-300 transition-colors"
+                                        >
+                                            zjocelyn43@gmail.com
+                                        </a>
+                                    </p>
+                                    
                                     <div className="flex gap-4 pt-4">
                                         <a
                                             href="https://www.facebook.com/100054303979060"
