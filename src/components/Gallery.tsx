@@ -6,7 +6,7 @@ type ImageModule = {
 };
 
 const images: Record<string, ImageModule> = import.meta.glob<ImageModule>(
-    "/src/assets/images/madagascar/*.{jpeg,jpg}",
+    "/public/assets/images/madagascar/*.{jpeg,jpg}",
     { eager: true }
 );
 
@@ -38,7 +38,7 @@ export default function Gallery() {
             {visibleCount < allImages.length && (
                 <button
                     onClick={showMore}
-                    className="underline text-green-500 font-bold rounded hover:text-green-600 cursor-pointer transition-colors"
+                    className="underline text-gray-600 hover:text-gray-900 font-bold rounded  cursor-pointer transition-colors"
                 >
                     <span>{t("gallery.more")}</span>
                 </button>
