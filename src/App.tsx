@@ -1,6 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { Madagascar } from "./components/Madagascar";
-import { BiLogoFacebookSquare, BiLogoInstagram } from "react-icons/bi";
+import {
+    BiHeart,
+    BiLogoFacebookSquare,
+    BiLogoInstagram,
+    BiMap,
+    BiTrip,
+} from "react-icons/bi";
 import Gallery from "./components/Gallery";
 
 function App() {
@@ -13,9 +19,6 @@ function App() {
 
     return (
         <>
-            <head>
-                <title>{t("hero.title")}</title>
-            </head>
             <div className="w-full min-h-screen bg-gradient-to-br from-slate-50 to-green-50 text-gray-900">
                 {/* Nav */}
                 <nav className="fixed w-full top-0 z-50 backdrop-blur-md bg-white/80 border-b border-green-100 shadow-sm">
@@ -76,7 +79,8 @@ function App() {
                         </p>
                         <a
                             href="#about"
-                            className="mt-8 px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white text-lg font-semibold rounded-full shadow-2xl hover:shadow-green-500/50 hover:scale-110 transition-all duration-300 animate-[fadeIn_1s_ease-out_0.6s_both]">
+                            className="mt-8 px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white text-lg font-semibold rounded-full shadow-2xl hover:shadow-green-500/50 hover:scale-110 transition-all duration-300 animate-[fadeIn_1s_ease-out_0.6s_both]"
+                        >
                             {t("hero.button")}
                         </a>
                     </div>
@@ -103,27 +107,58 @@ function App() {
                     id="about"
                     className="w-full py-24 px-6 scroll-mt-16 bg-white"
                 >
-                    <div className="max-w-6xl mx-auto">
+                    <div className="max-w-6xl mx-auto flex flex-col gap-12">
                         <div className="grid md:grid-cols-2 gap-12 items-center">
-                            <div className="relative group">
+                            <div className="relative group order-2 md:order-1">
                                 <div className="absolute -inset-4 bg-gradient-to-r from-green-400 to-emerald-500 rounded-2xl opacity-20 blur-xl group-hover:opacity-30 transition-opacity duration-500"></div>
                                 <img
-                                    src="../assets/jocelyn.png"
+                                    src="/public/assets/images/jocelyn.jpeg"
                                     alt="Jocelyn"
                                     className="relative rounded-2xl shadow-2xl w-full h-auto transform group-hover:scale-[1.02] transition-transform duration-500"
                                 />
                             </div>
-                            <div className="space-y-6">
+
+                            <div className="space-y-6 order-1 md:order-2">
                                 <div className="inline-block px-4 py-2 bg-green-100 text-green-700 text-sm font-semibold rounded-full">
                                     {t("nav.about")}
                                 </div>
+
                                 <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
                                     {t("about.greeting")}
                                 </h2>
                                 <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                                    {t("about.description")}
+                                    {t("about.description_who")}
                                 </p>
                             </div>
+                        </div>
+                        <div>
+                            <h3 className="flex items-center gap-2 text-xl font-semibold text-gray-900 mb-2">
+                                <BiTrip className="text-green-500 text-2xl" />
+                                {t("about.title_travel")}
+                            </h3>
+                            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+                                {t("about.description_travel")}
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 className="flex items-center gap-2 text-xl font-semibold text-gray-900 mb-2">
+                                <BiMap className="text-green-500 text-2xl" />
+                                {t("about.title_experience")}
+                            </h3>
+                            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+                                {t("about.description_experience")}
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 className="flex items-center gap-2 text-xl font-semibold text-gray-900 mb-2">
+                                <BiHeart className="text-green-500 text-2xl" />
+                                {t("about.title_madagascar")}
+                            </h3>
+                            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+                                {t("about.description_madagascar")}
+                            </p>
                         </div>
                     </div>
                 </section>
