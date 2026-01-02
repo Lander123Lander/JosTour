@@ -136,7 +136,7 @@ function App() {
                             <DestinationItem src="test" text="test" />
                         </div>
                         <a
-                            href="#"
+                            href="https://www.instagram.com/jocelyn_tours_mada/"
                             className="flex items-center gap-2 bg-green-500 text-white py-2 px-4 font-bold text-lg rounded hover:bg-green-600 cursor-pointer transition-colors mx-auto"
                         >
                             <span>{t("destinations.more")}</span>
@@ -160,19 +160,35 @@ function App() {
                                 <div className="flex flex-col gap-1">
                                     <strong>{t("contact.email")}:</strong>
                                     <a
-                                        href="mailto:yourname@example.com"
+                                        href="mailto:zjocelyn43@gmail.com"
                                         className="text-green-600 hover:underline text-lg"
                                     >
-                                        yourname@example.com
+                                        zjocelyn43@gmail.com
                                     </a>
                                 </div>
                                 <div className="flex flex-col gap-1">
                                     <strong>{t("contact.whatsapp")}:</strong>
                                     <a
-                                        href="tel:+1234567890"
+                                        href="tel:+261340478241"
                                         className="text-green-600 hover:underline text-lg"
                                     >
-                                        +1 (234) 567-890
+                                        +261 34 04 782 41
+                                    </a>
+                                </div>
+                                <div className="flex gap-2">
+                                    <a
+                                        href="https://www.facebook.com/100054303979060"
+                                        aria-label="Facebook"
+                                        className="text-green-600 hover:text-black transition-colors"
+                                    >
+                                        <BiLogoFacebookSquare size={32} />
+                                    </a>
+                                    <a
+                                        href="https://www.instagram.com/jocelyn_tours_mada/"
+                                        aria-label="Instagram"
+                                        className="text-green-600 hover:text-black transition-colors"
+                                    >
+                                        <BiLogoInstagram size={32} />
                                     </a>
                                 </div>
                             </div>
@@ -231,18 +247,35 @@ function App() {
                             <h3 className="font-bold text-xl mb-3">
                                 {t("contact.title")}
                             </h3>
-                            <p>{t("contact.email")}: yourname@example.com</p>
-                            <p>{t("contact.whatsapp")}: +1 (234) 567-890</p>
+                            <p>
+                                {t("contact.email")}:{" "}
+                                <a
+                                    href="mailto:zjocelyn43@gmail.com"
+                                    className="underline"
+                                >
+                                    zjocelyn43@gmail.com
+                                </a>
+                            </p>
+                            <p>
+                                {t("contact.whatsapp")}:{" "}
+                                <a
+                                    href="tel:+261340478241"
+                                    className="underline"
+                                >
+                                    +261 34 04 782 41
+                                </a>
+                            </p>
+
                             <div className="flex justify-center md:justify-start gap-4 mt-3">
                                 <a
-                                    href="#"
+                                    href="https://www.facebook.com/100054303979060"
                                     aria-label="Facebook"
                                     className="hover:text-green-200 transition-colors"
                                 >
                                     <BiLogoFacebookSquare size={32} />
                                 </a>
                                 <a
-                                    href="#"
+                                    href="https://www.instagram.com/jocelyn_tours_mada/"
                                     aria-label="Instagram"
                                     className="hover:text-green-200 transition-colors"
                                 >
