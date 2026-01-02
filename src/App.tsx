@@ -113,7 +113,7 @@ function App() {
                             <div className="relative group order-2 md:order-1">
                                 <div className="absolute -inset-4 bg-gradient-to-r from-green-400 to-emerald-500 rounded-2xl opacity-20 blur-xl group-hover:opacity-30 transition-opacity duration-500"></div>
                                 <img
-                                    src="/public/assets/images/jocelyn.jpeg"
+                                    src="/public/assets/images/jocelyn.jpg"
                                     alt="Jocelyn"
                                     className="relative rounded-2xl shadow-2xl w-full h-auto transform group-hover:scale-[1.01] transition-transform duration-500"
                                 />
