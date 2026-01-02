@@ -130,7 +130,7 @@ function RegionPath({
             onClick={() => onClick?.(name)}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
-            style={{ cursor: "pointer", transition: "fill 0.3s" }}
+            style={{ transition: "fill 0.3s" }}
         />
     );
 }

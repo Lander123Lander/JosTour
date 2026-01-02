@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "zostour"
-  }
+    "default": "jostour"
+  },
+  "targets": {},
+  "etags": {}
 }
