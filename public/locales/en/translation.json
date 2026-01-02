@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "destinations": "Destinations",
+    "gallery": "Gallery",
     "contact": "Contact",
     "quickLinks": "Quick Links"
   },
@@ -15,10 +15,11 @@
     "greeting": "Hi, I'm Jocelyn!",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit..."
   },
-  "destinations": {
-    "title": "Top Destinations",
-    "description": "Discover the most breathtaking places to visit in Madagascar.",
-    "more": "View more on Instagram"
+  "gallery": {
+    "title": "Gallery",
+    "description": "A collection of stunning images from Madagascar.",
+    "instagram": "See more on Instagram",
+    "more": "View more"
   },
   "contact": {
     "title": "Contact Me",
