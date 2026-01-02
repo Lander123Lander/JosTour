@@ -32,6 +32,13 @@
         "email": "Email",
         "whatsapp": "WhatsApp"
     },
+    "reviews": {
+        "dirix_family": {
+            "name": "Family Dirix",
+            "location": "Belgium",
+            "text": "We could not have wished for a better driver and guide than Jocelyn. He is an extremely pleasant man who does everything possible to make your holiday perfect. He knows everything and everyone in Madagascar. When our daughter became ill, a doctor was at her bedside within fifteen minutes."
+        }
+    },
     "author": {
         "name": "Lander Dirix",
         "rights": "All rights reserved."

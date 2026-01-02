@@ -8,6 +8,7 @@ import {
     BiTrip,
 } from "react-icons/bi";
 import Gallery from "./components/Gallery";
+import { BsStarFill } from "react-icons/bs";
 
 function App() {
     const { t, i18n } = useTranslation();
@@ -64,7 +65,7 @@ function App() {
                     className="relative w-full h-screen flex flex-col justify-center items-center text-center text-white overflow-hidden scroll-mt-16"
                 >
                     <img
-                        src="../assets/hero.png"
+                        src="../assets/images/hero.png"
                         alt="Madagascar"
                         className="absolute inset-0 w-full h-full object-cover scale-105 animate-[scale_20s_ease-in-out_infinite]"
                     />
@@ -85,7 +86,7 @@ function App() {
                         </a>
                     </div>
 
-                    <div className="absolute bottom-8 animate-bounce">
+                    <a href="#about" className="absolute bottom-8 animate-bounce cursor-default">
                         <svg
                             className="w-8 h-8 text-white/80"
                             fill="none"
@@ -99,7 +100,7 @@ function App() {
                                 d="M19 14l-7 7m0 0l-7-7m7 7V3"
                             />
                         </svg>
-                    </div>
+                    </a>
                 </section>
 
                 {/* About */}
@@ -114,7 +115,7 @@ function App() {
                                 <img
                                     src="/public/assets/images/jocelyn.jpeg"
                                     alt="Jocelyn"
-                                    className="relative rounded-2xl shadow-2xl w-full h-auto transform group-hover:scale-[1.02] transition-transform duration-500"
+                                    className="relative rounded-2xl shadow-2xl w-full h-auto transform group-hover:scale-[1.01] transition-transform duration-500"
                                 />
                             </div>
 
@@ -262,6 +263,35 @@ function App() {
                                     fill="#111827"
                                     stroke="#1F2937"
                                 />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section
+                    id="reviews"
+                    className="w-full py-24 px-6 scroll-mt-16 bg-gradient-to-b from-white to-green-50"
+                >
+                    <div className="max-w-3xl mx-auto">
+                        <div className="bg-white/80 border border-green-100 rounded-2xl shadow-lg p-8 md:p-10 scale-100 hover:scale-[1.01] transition-transform duration-500">
+
+                            <div className="flex items-center gap-1 mb-4 text-yellow-400">
+                                {Array.from({ length: 5 }).map((_, i) => (
+                                    <BsStarFill key={i} className="w-5 h-5" />
+                                ))}
+                            </div>
+                            <p className="text-lg md:text-xl text-gray-700 italic mb-6 leading-relaxed">
+                                “{t("reviews.dirix_family.text")}”
+                            </p>
+                            <div className="flex items-center justify-between gap-4">
+                                <div>
+                                    <p className="font-semibold text-gray-900 text-lg">
+                                        {t("reviews.dirix_family.name")}
+                                    </p>
+                                    <p className="text-sm text-gray-500">
+                                        {t("reviews.dirix_family.location")}
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
